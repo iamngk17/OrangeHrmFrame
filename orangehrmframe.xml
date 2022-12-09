@@ -1,0 +1,40 @@
+<suite name="OrangeHRM Frame Suite">
+      <test name="Admin Login with Valid Inputs">
+      <parameter name="uid" value="Admin"></parameter>
+      <parameter name="pwd" value="Qedge123!@#"></parameter>>
+            <classes>
+              <class name="Orangehrm_Frame.testcases.AdminLoginTestwithValidInputs"></class>
+           </classes>
+           </test>
+           <test name="Admin Login Test with inValidinputs">
+           <parameter name="uid" value="abc"></parameter>
+           <parameter name="pwd" value="Qedge12!@#"></parameter>>
+             <classes>
+                 <class name="Orangehrm_Frame.testcases.AdminLoginTestwithinValidinputs"></class>>
+              </classes>>
+        </test>>
+          
+        <test name="Employee Reg Test">
+           <parameter name="fname" value="Krish"></parameter>
+           <parameter name="lname" value="Demo"></parameter>>
+             <classes>
+                 <class name="Orangehrm_Frame.testcases.EmployeeRegTest"></class>>
+              </classes>>
+        </test>
+        <test name="User Reg Test">
+           <parameter name="role" value="ESS"></parameter>
+           <parameter name="empname" value="Krish Demo"></parameter>>
+           <parameter name="uname" value="Krish"></parameter>
+           <parameter name="pwd" value="Qedge123!@#"></parameter>>
+             <classes>
+                 <class name="Orangehrm_Frame.testcases.UserRegTest"></class>>
+              </classes>>
+        </test>>
+        <test name="Employee Login Test">
+           <parameter name="uid" value="Krish"></parameter>
+           <parameter name="pwd" value="Qedge123!@#"></parameter>>
+             <classes>
+                 <class name="Orangehrm_Frame.testcases.EmployeeLoginTest"></class>>
+              </classes>>
+        </test>>
+</suite>

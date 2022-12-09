@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Frame Suite]">
+  <test thread-count="5" name="User Reg Test(failed)">
+    <parameter name="empname" value="Krish Demo"/>
+    <parameter name="role" value="ESS"/>
+    <parameter name="uname" value="Krish"/>
+    <parameter name="pwd" value="Qedge123!@#"/>
+    <classes>
+      <class name="Orangehrm_Frame.testcases.UserRegTest">
+        <methods>
+          <include name="Logout"/>
+          <include name="closeApp"/>
+          <include name="lanchApp"/>
+          <include name="checkUserReg" invocation-numbers="0"/>
+          <include name="AdminLogin"/>
+        </methods>
+      </class> <!-- Orangehrm_Frame.testcases.UserRegTest -->
+    </classes>
+  </test> <!-- User Reg Test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Frame Suite] -->
